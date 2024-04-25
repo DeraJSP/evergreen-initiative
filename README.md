@@ -6,7 +6,7 @@ The Evergreen Initiative is a web application designed to provide users/farmers 
 Knowing what crops would thrive in favourable growing conditions and availability of the farm machinery will potentially increase agricultural crop production significantly.
 
 ## Component tree diagram of the feature
-![Model](https://raw.githubusercontent.com/DeraJSP/evergreen-initiative/main/components.png)
+![Model](https://raw.githubusercontent.com/DeraJSP/evergreen-initiative/main/component-tree.png)
 
 ## Error handling
 Automated Testing using Test cases that cover potential error scenarios will help identify issues early in the development cycle. We will be creating these test cases using Jest v29.7.
@@ -36,3 +36,6 @@ Automated Testing using Test cases that cover potential error scenarios will hel
 - Finding dependencies between activities to identify potential for parallelization
 - Team size and availability of team members will be considered when estimating work
 - Use of Kanban boards to visualize the timeline and parallelization of tasks
+
+  ## Click interaction structure
+![Model](https://raw.githubusercontent.com/DeraJSP/evergreen-initiative/main/click-interaction-structure.png)
