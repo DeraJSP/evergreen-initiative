@@ -8,7 +8,9 @@ Knowing what crops would thrive in favourable growing conditions and availabilit
 ## Component tree diagram of the feature
 ![Model](https://raw.githubusercontent.com/DeraJSP/evergreen-initiative/main/component-tree.png)
 
-![Model](https://raw.githubusercontent.com/DeraJSP/evergreen-initiative/main/api-flowchart.png)
+## API order execution
+![Model](https://raw.githubusercontent.com/DeraJSP/evergreen-initiative/main/api-order-execution.png)
+
 
 ## Error handling
 Automated Testing using Test cases that cover potential error scenarios will help identify issues early in the development cycle. We will be creating these test cases using Jest v29.7.
