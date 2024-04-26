@@ -8,9 +8,22 @@ Knowing what crops would thrive in favourable growing conditions and availabilit
 ## Component tree diagram of the feature
 ![Model](https://raw.githubusercontent.com/DeraJSP/evergreen-initiative/main/component-tree.png)
 
-## API order execution
+## Flow diagram API execution
 ![Model](https://raw.githubusercontent.com/DeraJSP/evergreen-initiative/main/api-flow.png)
+Access to the Evergreen API does not require authentication for public endpoints. However, certain endpoints may necessitate authentication for specific operations such as creating or updating user data.
 
+The Evergreen API integrates with external APIs to provide additional functionalities:
+
+OpenWeatherMap API: Used to retrieve climate information based on latitude and longitude coordinates.
+
+Endpoint: https://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={API key}
+Google Maps API: Utilized to fetch map images of specified locations.
+
+Endpoint: Google Maps Static API
+ISRIC SoilGrids API: Accessible to retrieve soil information based on geographic coordinates.
+
+Endpoint: https://rest.isric.org/soilgrids/v2.0/
+FAO BigQuery API: Provides crop data and information for agricultural analysis and research.
 
 ## Error handling
 Automated Testing using Test cases that cover potential error scenarios will help identify issues early in the development cycle. We will be creating these test cases using Jest v29.7.
@@ -28,6 +41,7 @@ Automated Testing using Test cases that cover potential error scenarios will hel
 - Vscode
 - Clickup
 - Github
+- NPM
 
 ## Test scenarios 
 - Testing the user interface across different browsers (Chrome, Firefox, Safari, etc.)
