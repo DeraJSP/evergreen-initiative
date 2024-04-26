@@ -9,7 +9,7 @@ Knowing what crops would thrive in favourable growing conditions and availabilit
 ![Model](https://raw.githubusercontent.com/DeraJSP/evergreen-initiative/main/component-tree.png)
 
 ## API order execution
-![Model](https://raw.githubusercontent.com/DeraJSP/evergreen-initiative/main/api-order-execution.png)
+![Model](https://raw.githubusercontent.com/DeraJSP/evergreen-initiative/main/api-flow.png)
 
 
 ## Error handling
