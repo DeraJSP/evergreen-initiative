@@ -6,7 +6,7 @@ The Evergreen Initiative is a web application designed to provide users/farmers 
 Knowing what crops would thrive in favourable growing conditions and availability of the farm machinery will potentially increase agricultural crop production significantly.
 
 ## Component tree diagram of the feature
-![Model](https://raw.githubusercontent.com/DeraJSP/evergreen-initiative/main/component-tree.png)
+![Model](https://raw.githubusercontent.com/DeraJSP/evergreen-initiative/main/components-tree.png)
 
 ## Flow diagram API execution
 ![Model](https://raw.githubusercontent.com/DeraJSP/evergreen-initiative/main/api-flow.png)
